@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/MEU_TCC_JAVA" />
-            <property name="javax.persistence.jdbc.user" value="root" />
-            <property name="javax.persistence.jdbc.password" value="1234" />
+	<property name="javax.persistence.jdbc.url"
+		value="jdbc:mysql://127.0.0.1:3306/MEU_TCC_JAVA" />
+	<property name="javax.persistence.jdbc.user" value="root" />
+	<property name="javax.persistence.jdbc.password" value="1234" />
 
-            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
-            <property name="hibernate.show_sql" value="true" />
-            <property name="hibernate.hbm2ddl.auto" value="create" /> 
-        </properties>
+	<property name="hibernate.dialect"
+		value="org.hibernate.dialect.MySQLDialect" />
+	<property name="hibernate.show_sql" value="true" />
+	<property name="hibernate.hbm2ddl.auto" value="create" />
+</properties>

@@ -2,7 +2,7 @@ package repositorios;
 
 import modelos.Empregado;
 
-public class EmpregadoRepositorio extends Repositorio<Empregado>{
+public class EmpregadoRepositorio extends Repositorio<Empregado, Integer>{
 
 	@Override
 	public Class<Empregado> minhaClasse() {

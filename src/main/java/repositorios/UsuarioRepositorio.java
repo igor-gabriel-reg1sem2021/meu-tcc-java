@@ -2,7 +2,7 @@ package repositorios;
 
 import modelos.Usuario;
 
-public class UsuarioRepositorio extends Repositorio<Usuario>{
+public class UsuarioRepositorio extends Repositorio<Usuario,Integer>{
 
 	@Override
 	public Class<Usuario> minhaClasse() {
